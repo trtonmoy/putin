@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>$GROK</title>
+    <link rel="icon" type="image/png" href="images/mario-logo.png">
+</head>
+<style>
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: cyan;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-align: center;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Black with 70% opacity */
+    z-index: 999; /* Ensure it's below the popup */
+}
+.popup button {
+  font-weight: 700;
+  padding: 10px 30px;
+  border: 2px solid black;
+  color: #fff;
+}
+  .popup button{
+background-color: green;
+  }
+  .popup button.btn2{
+background-color: red;
+  }
+  </style>
+<body>
+    <div class="hero">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="/images/rick-and-morty-in-the-ufo-moewalls-com.mp4" type="video/mp4">
+        </video>
+        <nav>
+            <img src="images/mario-logo.png" class="logo">
+            <ul>
+                <li><a href="buylink" target="_blank"><img src="assets/uniswap.webp" alt="">UniSwap</a></li>
+                <li><a href="tglink" target="_blank"><img src="assets/telegram.png" alt="TG">Telegram</a></li>
+                <li><a href="twitterlink" target="_blank"><img src="assets/twitter-x.webp" alt="X"> X</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <div class="content">
+            <!-- Your content here -->
+            <div class="content">
+                <h1 style="margin-top: 250px;">HarryPotterSomethingSomethingGrok</h1>
+                <div class="article">
+                    <p>
+                        The power of knowledge with $GROK, where every token holds the key to a world of wisdom! Join the revolution, embrace the meme, and let GROK be your gateway to a smarter, fun-filled future. Don't just trade, $GROK it!
+                    </p>
+       
+                </div>
+    <div class="middle-media">
+        <div style="margin: 20px;"><img src="assets/daniel-craig-james-bond.gif" alt=""></div>
+        <div style="text-align:left;">
+           <img src="images/rick-and.gif" alt="">
+       </div>
+            <div style="text-align:right"><img src="images/luffy-luffy-gear-5.gif" width="40%"></div>
+        <div><img src="assets/funny-as-hell-mickey-mouse.gif" alt=""></div>
+        
+    </div>
+                <h2><img src="assets/tokenomics.gif" alt=""></h2>
+                <div class="article">
+                  
+    <h3> Contract:</h3> <p class="ca">0x0000000000000000000000000000000000</p><br><br>
+                        <h3>Token Supply:</h3>  <p> The total token supply for $GROK is 10 Million tokens. 
+    <br> <br>
+                        $GROK:
+                        
+                         Welcome to the AI Playground, where GROK tokens are the brainy rebels of the crypto realm! Unleash the power of artificial intelligence with each GROK token—your ticket to a future where memes meet machine learning. Join the uprising, ride the GROK wave, and let's decode the future together! #GROK</p>
+                </div>
+            </div>
+            <div>
+    
+        </div>
+        <div class="media">
+            <div class="mario"> 
+                <div style="width:480px">
+                    
+                </div>
+                
+
+               <p><a href="https://giphy.com/gifs/thread-edition-hyper-YTtqB2j5EN7IA">via GIPHY</a></p>
+                <img src="assets/007.gif" alt="">
+                   <img height="400px" src="images/mario-run-tr.gif" alt="">
+                <img src="assets/" alt="">
+            </div>
+            <div class="video"> 
+                <video width="100%" height="600px;" autoplay muted controls>
+                    <source src="./assets/grok web.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <!-- <div><audio autoplay controls>
+                <source src="images/sound-track.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio></div> -->
+            
+        </div>
+    </div>
+    <div class="overlay" id="overlay"></div>
+ <div class="popup" id="popup">
+        <h2>DO YOU ACCEPT THE TRUTH?</h2>
+        <img style="width: 350px;" src="images/mario-run-tr.gif"><br>
+        <button onclick="playMusic()">YES</button>
+        <button onclick="redirectToTesla()" class="btn2">NO</button>
+    </div>
+    <audio id="background-music" src="images/james.mp3" preload="auto"></audio>
+    
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+    let popup = document.getElementById('popup');
+    let overlay = document.getElementById('overlay');
+    let backgroundMusic = document.getElementById('background-music');
+
+    // Show popup and overlay on pageload
+    popup.style.display = 'block';
+    overlay.style.display = 'block';
+
+    window.playMusic = function() {
+        popup.style.display = 'none';
+        overlay.style.display = 'none';
+        backgroundMusic.play();
+    }
+
+    window.redirectToTesla = function() {
+        window.location.href = "https://pepe.vip";
+    }
+});
+    </script>
+</body>
+</html>
