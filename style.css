@@ -1,131 +1,128 @@
 * {
-    margin: 0;
-    padding: 1px;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 1px;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #000; /* Set a background color as a fallback */
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Set a background color as a fallback */
 }
 
 /* Add styles for the video background */
 .hero {
-    position: relative;
-    overflow: hidden;
-    background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
 }
 
 .back-video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1; /* To place it behind other content */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* To place it behind other content */
 }
 
 /* Add styles for navigation bar and other elements */
 nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 8%;
-    background-color: rgba(95, 55, 2, 0.873);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 1; /* To overlay the video */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 8%;
+  background-color: rgba(95, 55, 2, 0.873);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1; /* To overlay the video */
 }
 
 nav .logo {
-    width: 170px;
-    height: 120px;
+  width: 80px;
+  height: 70px;
+  border-radius: 40%;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #fff;
 }
 
 nav img {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
-.content{
-    max-width: 100%;
-    text-align: center;
-    display: inline-block;
-    
+.content {
+  max-width: 100%;
+  text-align: center;
+  display: inline-block;
 }
 
 .content .article {
-    background-color: rgba(9, 9, 9, 0.474);
-    color: #e2e8e6;
-    font-weight: 600;
-    font-size: large;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    line-height: 20px;
-    text-align: justify;
-    padding: 20px;
-    margin: 2px;
-    
+  background-color: rgba(9, 9, 9, 0.474);
+  color: #e2e8e6;
+  font-weight: 600;
+  font-size: large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 20px;
+  text-align: justify;
+  padding: 20px;
+  margin: 2px;
 }
-.content .article span{
-    color: blue;
+.content .article span {
+  color: blue;
 }
-.middle-media{
-    display: flex;
-    flex-direction: column;
+.middle-media {
+  display: flex;
+  flex-direction: column;
 }
 
-.media{
-    display: flexbox;
+.media {
+  display: flexbox;
 }
 /* Add responsive design for smaller screens */
 @media screen and (max-width: 768px) {
-    nav {
-        padding: 10px;
-    }
+  nav {
+    padding: 10px;
+  }
 
-    nav ul li {
-        margin: 0 5px;
-    }
+  nav ul li {
+    margin: 0 5px;
+  }
 
-    nav img {
-        width: 20px;
-        height: 20px;
-    }
+  nav img {
+    width: 20px;
+    height: 20px;
+  }
 
-    img.hero {
-        width: 100%;
-    }
-    .ca {
-        font-size: 13px;
-    }
-    /* Adjust other responsive styles as needed */
+  img.hero {
+    width: 100%;
+  }
+  .ca {
+    font-size: 13px;
+  }
+  /* Adjust other responsive styles as needed */
 }
 
-
-
-
-* {
-    cursor: url(https://cur.cursors-4u.net/food/foo-5/foo436.cur), auto !important;} 
+/* * {
+    cursor: url(https://cur.cursors-4u.net/food/foo-5/foo436.cur), auto !important;}  */
